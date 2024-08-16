@@ -1,0 +1,11 @@
+[
+    {
+        "primaryKey": "id",
+        "data": [],
+        "columns": {
+            "surname": "string",
+            "id": "number",
+            "name": "string"
+        }
+    }
+]

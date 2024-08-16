@@ -1,0 +1,38 @@
+[
+    {
+        "primaryKey": "id",
+        "columns": {
+            "id": "string",
+            "name": "string",
+            "surname": "string",
+            "age": "number",
+            "jobs": "table"
+        },
+        "data": {
+            "char1:0000": {
+                "name": "John",
+                "surname": "Doe",
+                "age": 25,
+                "jobs": ["engineer", "developer"]
+            },
+            "char1:0001": {
+                "name": "Alice",
+                "surname": "Smith",
+                "age": 30,
+                "jobs": ["doctor"]
+            },
+            "char1:0002": {
+                "name": "Bob",
+                "surname": "Johnson",
+                "age": 28,
+                "jobs": ["teacher", "chef"]
+            },
+            "char1:0003": {
+                "name": "Emily",
+                "surname": "Brown",
+                "age": 22,
+                "jobs": ["artist"]
+            }
+        }
+    }
+]
